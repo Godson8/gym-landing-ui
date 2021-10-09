@@ -2,6 +2,7 @@ const navToggle = document.querySelector('.nav__toggle');
 const navMenu = document.querySelector('.nav__menu');
 const navLinks = document.querySelectorAll('.nav__link');
 
+//navbar toggle
 let i = 1;
 navToggle.addEventListener('click', function(){
     i++;
