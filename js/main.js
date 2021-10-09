@@ -21,6 +21,8 @@ navLinks.forEach(function(navLink){
     })
 })
 
+
+//Scroll reveal for all elements as you scroll down.
 const sr = ScrollReveal({
     distance: '60px',
     duration: 2800,
