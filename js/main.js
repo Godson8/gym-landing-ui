@@ -2,7 +2,7 @@ const navToggle = document.querySelector('.nav__toggle');
 const navMenu = document.querySelector('.nav__menu');
 const navLinks = document.querySelectorAll('.nav__link');
 
-//navbar toggle
+//navbar toggle icon
 let i = 1;
 navToggle.addEventListener('click', function(){
     i++;
@@ -15,6 +15,7 @@ navToggle.addEventListener('click', function(){
     };
 })
 
+// remove nav bar on navlink click
 navLinks.forEach(function(navLink){
     navLink.addEventListener('click', function(){
         navToggle.classList.remove('open');
